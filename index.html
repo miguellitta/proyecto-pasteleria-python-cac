@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="https://kit.fontawesome.com/dbad6cc6a2.js" crossorigin="anonymous"></script>
     <title>Pasteleria</title>
 </head>
@@ -12,14 +12,15 @@
     <!-- HEADER Y NAV -->
     <header class="header-container">
         <div class="header-img">
-            <img src="assets/img/header-coconut.png" alt="logo">
+            <img src="img/header-coconut.png" alt="logo">
         </div>
         <nav class="nav-container">
             <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Inicio</a></li>
                 <li class="nav-item"><a href="#">Quienes somos</a></li>
-                <li class="nav-item"><a href="#">Productos</a></li>
-                <li class="nav-item"><a href="#">Como comprar</a></li>
-                <li class="nav-item"><a href="#">Contacto</a></li>
+                <li class="nav-item"><a href="#products-link">Productos</a></li>
+                <li class="nav-item"><a href="como-comprar.html">Como comprar</a></li>
+                <li class="nav-item"><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -37,13 +38,13 @@
 
         </section>
         
-        <section class="products">
+        <section class="products" id="products-link">
             <h2 class="prod-title">Productos destacados</h2>
             <div class="cards-container">
                 <div class="card-list">
                 <div class="card">
                     <div class="card-img-container">
-                        <img src="assets/img/alfajor.png" alt="imagen" />
+                        <img src="img/alfajor.png" alt="imagen" />
                     </div>
                     <div class="card-title">
                         <h2>Alfajor</h2>
@@ -53,7 +54,7 @@
                 </div>
                 <div class="card">
                     <div class="card-img-container">
-                        <img src="assets/img/budin.png" alt="imagen" />
+                        <img src="img/budin.png" alt="imagen" />
                     </div>
                     <div class="card-title">
                         <h2>Budin</h2>
@@ -63,7 +64,7 @@
                 </div>
                 <div class="card">
                     <div class="card-img-container">
-                        <img src="assets/img/carrot-cake.png" alt="imagen" />
+                        <img src="img/carrot-cake.png" alt="imagen" />
                     </div>
                     <div class="card-title">
                         <h2>Carrot cake</h2>
@@ -73,7 +74,7 @@
                 </div>
                 <div class="card">
                     <div class="card-img-container">
-                        <img src="assets/img/lemon-pie.png" alt="imagen" />
+                        <img src="img/lemon-pie.png" alt="imagen" />
                     </div>
                     <div class="card-title">
                         <h2>Lemon pie</h2>
@@ -83,7 +84,7 @@
                 </div>
                 <div class="card">
                     <div class="card-img-container">
-                        <img src="assets/img/macarons.png" alt="imagen" />
+                        <img src="img/macarons.png" alt="imagen" />
                     </div>
                     <div class="card-title">
                         <h2>Macarons</h2>
@@ -93,7 +94,7 @@
                 </div>
                 <div class="card">
                     <div class="card-img-container">
-                        <img src="assets/img/red-velvet.png" alt="imagen" />
+                        <img src="img/red-velvet.png" alt="imagen" />
                     </div>
                     <div class="card-title">
                         <h2>Red velvet</h2>
@@ -104,6 +105,10 @@
             </div>
     
             </div>
+        </section>
+
+        <section class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ib1V_Z9sjHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
         
     </main>
@@ -146,7 +151,7 @@
         </div>
         <div class="footer__copyright">
             <p>
-                Copyright Coconut Pasteleria - 2023. Todos los derechos reservados.
+                Copyright Coconut © Pasteleria - 2023. Todos los derechos reservados.
             </p>
         </div>
     </footer>
