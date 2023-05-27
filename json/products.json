@@ -1,0 +1,38 @@
+{
+    "pasteleria": [
+    {
+        "imagen": "img/alfajor.png",
+        "productos": "Alfajor",
+        "precio": 3000
+    },
+             
+    {
+        "imagen": "img/budin.png",
+        "productos": "Budin",
+        "precio": 3500
+    },
+
+     {
+        "imagen": "img/carrot-cake.png",
+        "productos": "Carrot cake",
+        "precio": 4000
+    },
+
+    {   "imagen": "img/lemon-pie.png",
+        "productos": "Lemon pie",
+        "precio": 4000
+    },
+
+    {
+        "imagen": "img/macarons.png",
+        "productos": "Macarons",
+        "precio": 4000
+    },
+
+    {
+        "imagen": "img/red-velvet.png",
+        "productos": "Red velvet",
+        "precio": 4000
+    }
+
+] }

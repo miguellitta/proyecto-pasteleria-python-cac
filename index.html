@@ -17,7 +17,7 @@
         <nav class="nav-container">
             <ul class="nav-list">
                 <li class="nav-item"><a href="index.html">Inicio</a></li>
-                <li class="nav-item"><a href="#">Quienes somos</a></li>
+                <li class="nav-item"><a href="quienes-somos.html">Quienes somos</a></li>
                 <li class="nav-item"><a href="#products-link">Productos</a></li>
                 <li class="nav-item"><a href="como-comprar.html">Como comprar</a></li>
                 <li class="nav-item"><a href="contacto.html">Contacto</a></li>
@@ -32,7 +32,7 @@
             <div class="info-container">
                 <h1 class="info-title">Coconut Pasteleria</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat beatae magnam exercitationem minus ipsam minima autem maxime asperiores ex porro ducimus sequi rerum nihil, sint ipsa, qui delectus quaerat quia.</p>
-                <button class="btn_info">Ver productos</button>
+                <button class="btn_info"><a href="#products-link">Ver productos</a></button>
             </div>
             
 
@@ -41,8 +41,8 @@
         <section class="products" id="products-link">
             <h2 class="prod-title">Productos destacados</h2>
             <div class="cards-container">
-                <div class="card-list">
-                <div class="card">
+                <div class="card-list" id="card-list-id">
+                <!-- <div class="card">
                     <div class="card-img-container">
                         <img src="img/alfajor.png" alt="imagen" />
                     </div>
@@ -101,15 +101,26 @@
                         <p>$4000</p>
                     </div>
                   <button class="btn-card">Comprar</button>  
-                </div>
+                </div> -->
             </div>
     
             </div>
         </section>
-
-        <section class="iframe-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ib1V_Z9sjHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section class="iframe-section">
+            <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ib1V_Z9sjHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="iframe-text-container">
+                <h2 class="iframe-text">Sigue a nuestros amigos y aprende las mejores decoraciones!</h2>
+            </div>
         </section>
+        
+        <section class="clients-section" id="results">
+            
+            
+            
+        </section>
+        
         
     </main>
 
@@ -155,7 +166,8 @@
             </p>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/app.js"></script>
     <!-- FIN DE FOOTER-->
 </body>
 </html>
