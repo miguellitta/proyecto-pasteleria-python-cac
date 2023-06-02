@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="img/cake.ico" type="image/x-icon"/>
+    <script src="https://kit.fontawesome.com/dbad6cc6a2.js" crossorigin="anonymous"></script>
     <title>Contacto - Pasteleria Coconut</title>
 </head>
 <body>
-    <!-- HEADER Y NAV -->
+    <div class="grid-layout">
+        <!-- HEADER Y NAV -->
     <header class="header-container">
         <div class="header-img">
             <img src="img/header-coconut.png" alt="logo">
@@ -25,28 +28,32 @@
     </header>
     <!-- FIN HEADER Y NAV -->
 
-    <!--FORM-->
-    <section class="container">
-        <form action="#">
-      
-          <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
-      
-          <label for="apellido">Apellido</label>
-          <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
-      
-          <label for="mail">Mail</label>
-          <input type="email" id="mail" name="mail" placeholder="Ingresa tu email" required>
+    
+    <main class="main">
+        <!--FORM-->
+        <section class="container">
+            <form action="#">
           
-      
-          <label for="consulta">Consulta</label>
-          <textarea id="consulta" name="consulta" placeholder="Escribe tu consulta" style="height:200px" required></textarea>
-      
-          <input type="submit" value="Enviar">
-      
-        </form>
-      </section>
-    <!--FIN FORM-->
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+          
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+          
+              <label for="mail">Mail</label>
+              <input type="email" id="mail" name="mail" placeholder="Ingresa tu email" required>
+              
+          
+              <label for="consulta">Consulta</label>
+              <textarea id="consulta" name="consulta" placeholder="Escribe tu consulta" style="height:200px" required></textarea>
+          
+              <input type="submit" value="Enviar">
+          
+            </form>
+          </section>
+        <!--FIN FORM-->
+    </main>
+    
 
     <!--INICIO FOOTER-->
 
@@ -90,5 +97,7 @@
     </footer>
 
     <!-- FIN DE FOOTER-->
+    </div>
+    
 </body>
 </html>
