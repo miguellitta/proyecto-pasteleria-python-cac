@@ -82,6 +82,7 @@ async function getQuotes() {
 //     }]
 // ]
 
-// getQuotes(); Falta encontrar problemassss
+// getQuotes(); Falta encontrar problemas
 
 getUser();
+
